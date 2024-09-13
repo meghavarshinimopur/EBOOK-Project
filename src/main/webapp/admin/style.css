@@ -1,0 +1,29 @@
+.bg-custom {
+  background-color: #303f9f;
+}
+
+/* Default link color */
+.navbar .nav-link {
+  color: white !important;
+}
+
+/* Hover color for navbar items */
+.navbar .nav-item:hover .nav-link,
+.navbar .nav-link:hover {
+  color: #303f9f !important; /* Text color on hover */
+  background-color: white !important; 
+  border-radius: 20px;/* Background color on hover */
+}
+
+/* Hover color for the navbar toggler */
+.navbar-toggler:hover {
+  background-color: #1a237e !important; /* Background color on hover */
+}
+
+/* Hover color for light buttons */
+.btn-light:hover {
+  background-color: #c5cae9 !important; /* Background color on hover */
+  color: #000 !important; /* Text color on hover */
+}
+
+
